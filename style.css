@@ -1,0 +1,46 @@
+/* Reset some default margins and set a pleasant font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the main container */
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Headings */
+  h1 {
+    color: #333333;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Paragraphs */
+  p {
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 1em;
+  }
+  
+  /* A simple button */
+  button {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
